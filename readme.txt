@@ -1,0 +1,2 @@
+扩展了rapid的源码项目
+扩展了一个包cn.org.rapid_framework.generator.extend
