@@ -8,7 +8,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import com.noitom.page.ContentInfoPage;
 import ${basepackage}.${model}.${className};
 import ${basepackage}.${page}.${className}Page;
 import ${basepackage}.${service}.${className}Service;

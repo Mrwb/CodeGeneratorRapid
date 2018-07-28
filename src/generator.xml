@@ -7,13 +7,17 @@
 		2.可以引用环境变量: ${env.JAVA_HOME} or System.properties: ${user.home},property之间也可以相互引用
 	</comment>
 	
-	<entry key="jdbc.username">noitom</entry>
-	<entry key="jdbc.password">noitom</entry>
-	<entry key="jdbc.url">jdbc:mysql://192.168.2.23:3306/noitomoa_auth</entry>
+	<entry key="jdbc.username">uknower</entry>
+	<entry key="jdbc.password">uknower</entry>
+	<entry key="jdbc.url">jdbc:mysql://10.131.105.198:3306/uknower_invoice</entry>
 	<entry key="jdbc.driver">com.mysql.jdbc.Driver</entry>
 	
-	<entry key="nowdate">2017/07/24 10:05</entry>
-	<entry key="basepackage">com.noitom</entry>
+	<entry key="nowdate">2018/07/05 14:20</entry>
+	<entry key="version">1.0.0</entry>
+	<entry key="constant">constant</entry>
+	<entry key="command">command</entry>
+	<entry key="module">invoice</entry>
+	<entry key="basepackage">com.uknower</entry>
 	<entry key="model">model</entry>
 	<entry key="mapper">dao</entry>
 	<entry key="page">page</entry>
@@ -24,8 +28,14 @@
 	<entry key="baseservice">baseservice</entry>
 	<entry key="restservice">restservice</entry>
 	<entry key="interf">interf</entry>
+	<!-- dubbo生成配置文件 -->
+	<entry key="provider">provider</entry>
+	<entry key="api">api</entry>
+	<entry key="consumer">consumer</entry>
+	<entry key="command">command</entry>
+	<entry key="xml">xml</entry>
 	<!-- 生成文件输出目录 -->
-	<entry key="outRoot">F:\\generator-output</entry>
+	<entry key="outRoot">D:\\generateCode</entry>
 	
 	<!-- id和数据库的默认字段   注意用","分隔,数据库中的字段, -->
 	<entry key="idAnddefaultColum"><!-- ID,CREATED_BY,CREATED_TIME,MODIFIED_BY,MODIFIED_TIME,OWNER_ID,DELETED,STATUS,LOCKED,LOCKED_BY,GROUP_ID --></entry>
