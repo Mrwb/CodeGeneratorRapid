@@ -42,7 +42,11 @@ public class GeneratorMain {
 //		GeneratorCLAP.generateByTable("invoice_detail"); 
 //		GeneratorCLAP.generateByTable("invoice_init"); 
 //		GeneratorCLAP.generateByTable("invoice_item"); 
-		GeneratorCLAP.generateByTable("invoice_express_info"); 
+//		GeneratorCLAP.generateByTable("invoice_express_info"); 
+		GeneratorCLAP.generateByTable("requisition_item_info"); 
+		GeneratorCLAP.generateByTable("requisition_info"); 
+		GeneratorCLAP.generateByTable("invoice_item_info"); 
+		GeneratorCLAP.generateByTable("invoice_info"); 
 //		GeneratorCLAP.generateByTable("invoice_merchant"); 
 //		GeneratorCLAP.generateByTable("check_invoice_vat"); 
 //		GeneratorCLAP.generateByTable("check_invoice_freightage"); 
